@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvogue-Pet-Store</title>
+    <!-- Google Fonts Link Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- Google Fonts Link End -->
+    <!-- Font Awesome Link Start -->
+     <link rel="stylesheet" href="src/all.min.css">
+    <!-- Font Awesome Link End -->
+    <!-- Slick Slider css Start -->
+     <link rel="stylesheet" href="src/slick.css">
+    <!-- Slick Slider css End -->
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <!-- Top Header Part Start -->
+     <div class="py-6 bg-col3 ">
+        <div class="max-w-mycontainer m-auto">
+            <div class="flex justify-between text-white">
+                <div class=" flex justify-between items-center">
+                    <div class="flex justify-between w-[68px] mr-8 ">
+                        <h4 class="text-xs">English</h4>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="flex justify-between w-[60px]">
+                        <h4 class="text-xs">USD</h4>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+                <div class="">
+                    <h4 class="font-semibold text-sm uppercase">New customers save 10% with the code GET10</h4>
+                </div>
+                <div class="flex justify-between items-center w-[200px]">
+                    <i class="fa-brands fa-facebook text-[16px] text-white hover:text-black transition-all duration-300"></i>
+                    <i class="fa-brands fa-instagram text-[16px] text-white hover:text-black transition-all duration-300"></i>
+                    <i class="fa-brands fa-twitter text-[16px] text-white  hover:text-black transition-all duration-300"></i>
+                    <i class="fa-brands fa-linkedin text-[16px] text-white  hover:text-black hover:bg-white transition-all duration-300"></i>
+                    <i class="fa-brands fa-youtube text-[16px] text-white  hover:text-black transition-all duration-300"></i>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Top Header Part End -->
+    <!-- Logo Part Start -->
+     <div class="py-4 bg-[#F7F7F7]">
+        <div class="flex justify-between items-center">
+            <div class="">
+                <img src="src/assets/logo.png" alt="logo.png">
+            </div>
+            <div class="">
+                <input  class="bg-white py-4.5 pl-6 pr-20 rounded-l-xl text-col4 text-lg w-[500px]" type="text" placeholder="What are you looking for today?">
+                <i class="fa-solid fa-magnifying-glass py-6 px-4 bg-black -ml-4 rounded-r-2xl text-white text-lg"></i>
+            </div>
+            <div class="flex justify-between items-center w-[184px] mr-8">
+                <div class="text-center">
+                    <i class="fa-solid fa-user text-lg"></i>
+                    <p class="font-regular text-sm">Account</p>
+                </div>
+
+                <div class="text-center">
+                    <i class="fa-solid fa-heart text-lg"></i>
+                    <p class="font-regular text-sm">Wishlist</p>
+                </div>
+                <div class="text-center relative">
+                    <i class="fa-solid fa-bag-shopping text-lg"><span class=" h-4 w-4 flex justify-center items-center rounded-full bg-col5 text-[10px] font-bold text-black -top-2 -right-2  absolute">1</span></i>
+                    <p class="font-regular text-sm">Cart</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Logo Part End -->
+    <!-- Navbar Part Start -->
+     <div class="py-0 bg-white relative">
+        <div class="max-w-mycontainer m-auto">
+            <div class="flex justify-between items-center">
+                <div class="flex justify-between items-center bg-col3 w-[230px] py-4 text-white text-center">
+                    <div class="flex ">
+                        <i class="fa-solid fa-bars text-lg mr-4 ml-4"></i>
+                        <h4 class="font-semibold text-sm uppercase">Shop By</h4>
+                    </div>
+                    <i class="fa-solid fa-angle-down font-bold text-lg mr-8"></i>
+                    <div class="absolute -bottom-72 left-0 w-[230px] bg-col1 opacity-0 hover:opacity-100">
+                        <ul>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Pet Food</li>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Pet Outfits</li>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Pet Toys</li>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Pet Beds</li>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Pet Pharmacy</li>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Suppliment</li>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Accossories</li>
+                            <li class="text-col3 text-normal text-sm text-center py-2 border-b-1 border-dotted">Pet Services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-black uppercase items-center">
+                    <ul>
+                        <li class="inline-block"><a class="font-semibold text-sm text-col3 mr-6" href="#"> Demo</a></li>
+                        <li class="inline-block"><a class="font-semibold text-sm text-col3 mr-6"href="#">Features</a></li>
+                        <li class="inline-block"><a class="font-semibold text-sm text-col3 mr-6" href="#">Shop</a></li>
+                        <li class="inline-block"><a class="font-semibold text-sm text-col3 mr-6" href="#">Product</a></li>
+                        <li class="inline-block"><a class="font-semibold text-sm text-col3 mr-6" href="#">Blog</a></li>
+                        <li class="inline-block"><a class="font-semibold text-sm text-col3 mr-6" href="#">Pages</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <p class="font-semibold text-base text-col3">
+                        <span class="text-col5">Hotline:</span> +01 1234 8888 </p>
+                </div>
+           </div>
+        </div>
+     </div>
+<!-- Navbar Part End -->
+<!-- Banner Part Start -->
+<div class="banSlider">
+    <div class="bg-[url(../src/assets/banner_slider1.png)] bg-no-repeat bg-cover bg-center py-20">
+        <div class="w-[520px]">
+            <h5 class="font-semibold text-lg text-col3 pb-8">SALE! UPTO 50% OFF!</h5>
+            <h1 class="font-medium text-[80px] leading-20 mb-10 pr-">Your Pet's Perfect Store</h1>
+            <button class="py-4 px-8 bg-col3 rounded-xl hover:bg-col1  transition-all duration-300"><a
+                    class="font-semibold text-sm text-white uppercase hover:text-black transition-all duration-300"
+                    href="">SHOP NOW</a></button>
+        </div>
+        <div class="mt-16 pl-8">
+            <img src="src/assets/pow.png" alt="pow.png">
+        </div>
+    </div>
+    <div class="bg-[url(../src/assets/banner_slider2.png)] bg-no-repeat bg-cover bg-center py-20">
+        <div class="w-[520px]">
+            <h5 class="font-semibold text-lg text-col3 pb-6">SALE! UPTO 50% OFF!</h5>
+            <h1 class="font-medium text-[70px] leading-20 mb-8 ">Unleash A Happy, Healthy Pet</h1>
+            <button class="py-4 px-8 bg-col3 rounded-xl hover:bg-col1  transition-all duration-300"><a
+                    class="font-semibold text-sm text-white uppercase hover:text-black transition-all duration-300"
+                    href="">SHOP NOW</a></button>
+        </div>
+        <div class="mt-16 pl-8">
+            <img src="src/assets/pow.png" alt="pow.png">
+        </div>
+    </div>
+    <div class="bg-[url(../src/assets/banner_slider3.png)] bg-no-repeat bg-cover bg-center py-20">
+        <div class="w-[520px]">
+            <h5 class="font-semibold text-lg text-col3 pb-8">SALE! UPTO 50% OFF!</h5>
+            <h1 class="font-medium text-[78px] leading-20 mb-10 ">Feed Your Pet's Appetite</h1>
+            <button class="py-4 px-8 bg-col3 rounded-xl hover:bg-col1  transition-all duration-300"><a
+                    class="font-semibold text-sm text-white uppercase hover:text-black transition-all duration-300"
+                    href="">SHOP NOW</a></button>
+        </div>
+        <div class="mt-16 pl-8">
+            <img src="src/assets/pow.png" alt="pow.png">
+        </div>
+    </div>
+</div>
+<!-- Banner Part End -->
+<!--Pet Product PartStart -->
+<div class="py-8">
+    <div class="max-w-mycontainer m-auto">
+        <div class="flex justify-between gap-x-4">
+            <div class="w-33% relative">
+                <img class="rounded-3xl" src="src/assets/product1.png" alt="product1.png">
+                <div class="absolute top-10 left-6 text-white">
+                    <h5 class="font-semibold text-sm mb-4">15 PRODUCTS</h5>
+                    <h3 class="font-semibold text-4xl mb-2 capitalize">Dog Food</h3>
+                    <h6 class="font-normal text-xl mb-5">Relax Bamboo Chair</h6>
+                    <button class="py-3 px-5 bg-col3 rounded-xl hover:bg-col1  transition-all duration-300"><a
+                        class="font-semibold text-sm text-white uppercase hover:text-black transition-all duration-300"
+                        href="">SHOP NOW</a></button>
+                </div>
+
+            </div>
+            <div class="w-33% relative">
+                <img class="rounded-3xl" src="src/assets/product2.png" alt="product1.png">
+                <div class="absolute top-10 left-6 text-white">
+                    <h5 class="font-semibold text-sm mb-4">15 PRODUCTS</h5>
+                    <h3 class="font-semibold text-4xl mb-2 capitalize">Cat Food</h3>
+                    <h6 class="font-normal text-xl mb-5">Relax Bamboo Chair</h6>
+                    <button class="py-3 px-5 bg-col3 rounded-xl hover:bg-col1  transition-all duration-300"><a
+                        class="font-semibold text-sm text-white uppercase hover:text-black transition-all duration-300"
+                        href="">SHOP NOW</a></button>
+                </div>
+
+            </div>
+            <div class="w-33% relative">
+                <img class="rounded-3xl" src="src/assets/product1.png" alt="product1.png">
+                <div class="absolute top-10 left-6 text-white">
+                    <h5 class="font-semibold text-sm mb-4">15 PRODUCTS</h5>
+                    <h3 class="font-semibold text-4xl mb-2 capitalize">Sale Of 20%</h3>
+                    <h6 class="font-normal text-xl mb-5">Relax Bamboo Chair</h6>
+                    <button class="py-3 px-5 bg-col3 rounded-xl hover:bg-col1  transition-all duration-300"><a
+                        class="font-semibold text-sm text-white uppercase hover:text-black transition-all duration-300"
+                        href="">SHOP NOW</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Pet Product PartEnd -->
+<!-- Shop by Category Part Start -->
+ <div class="py-14">
+    <div class="max-w-mycontainer m-auto">
+        <div class="text-center mb-8">
+            <h2 class="font-semibold text-4xl text-col3">Shop By Categories</h2>  
+        </div>
+        <div class="categorySlider">
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category1.png" alt="category1.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Food<span class="text-col4"> (8)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category2.png" alt="category2.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Outfit<span class="text-col4"> (2)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category3.png" alt="category3.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Beds<span class="text-col4"> (3)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category4.png" alt="category4.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Toys<span class="text-col4"> (4)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category5.png" alt="category5.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Suppliment<span class="text-col4"> (18)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category6.png" alt="category6.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Pharmacy<span class="text-col4"> (5)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category7.png" alt="category7.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Pharmacy<span class="text-col4"> (13)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category8.png" alt="category8.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Pharmacy<span class="text-col4"> (9)</span></p>
+            </div>
+            <div class="">
+                <img class="rounded-xl" src="src/assets/category9.png" alt="category9.png">
+                <p class="font-semibold text-xl text-col3 text-center mt-4">Pharmacy<span class="text-col4"> (25)</span></p>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- Shop by Category Part End -->
+<!-- Feature Product Part Start -->
+<div class="bg-[url(../src/assets/featureProductBg.png)] bg-no-repeat bg-center bg-cover py-20">
+    <h3 class="font-semibold text-4xl text-white text-center mb-12">Feature Products</h3>
+        <div id="productContainer" class="bg-white py-3 w-[450px] m-auto px-4 flex justify-around rounded-xl">
+            <button data-filter="all" class=" mix-btn py-1 font-semibold text-sm text-col2 border-1 border-[#e3e3e3] shadow-2xl px-4 rounded-lg hover:font-bold hover:text-lg hover:text-col3 transition-all duration-500" >All</button>
+            <button data-filter=".arrival" class=" mix-btn py-1 font-semibold text-sm text-col2 border-1 border-[#e3e3e3] shadow-2xl px-4 rounded-lg hover:font-bold hover:text-lg hover:text-col3 transition-all duration-500" >New Arrivals</button>
+            <button data-filter=".sale" class=" mix-btn py-1 font-semibold text-sm text-col2 border-1 border-[#e3e3e3] shadow-2xl px-4 rounded-lg hover:font-bold hover:text-lg hover:text-col3 transition-all duration-500">On sale</button>
+            <button data-filter=".seller" class=" mix-btn py-1 font-semibold text-sm text-col2 border-1 border-[#e3e3e3] shadow-2xl px-4 rounded-lg hover:font-bold hover:text-lg hover:text-col3 transition-all duration-500">Best sellers</button>
+        </div>
+</div>
+<div class="max-w-mycontainer m-auto">
+    <div class="flex justify-around flex-wrap gap-y-10">
+        <img class="mix arrival w-[200px] h-[250px]" src="src/assets/featureProduct1.png" alt="featureProduct1.png">
+        <img class="mix sale w-[200px] h-[250px]" src="src/assets/featureProduct2.png" alt="featureProduct2.png">
+        <img class="mix seller w-[200px] h-[250px]" src="src/assets/featureProduct3.png" alt="featureProduct3.png">
+        <img class="mix sale w-[200px] h-[250px]" src="src/assets/featureProduct4.png" alt="featureProduct4.png">
+        <img class="mix arrival w-[200px] h-[250px]" src="src/assets/featureProduct5.png" alt="featureProduct5.png">
+        <img class="mix seller w-[200px] h-[250px]" src="src/assets/featureProduct6.png" alt="featureProduct6.png">
+        <img class="mix seller w-[200px] h-[250px]" src="src/assets/featureProduct7.png" alt="featureProduct7.png">
+        <img class="mix sale w-[200px] h-[250px]" src="src/assets/featureProduct8.png" alt="featureProduct8.png">
+        <img class="mix arrival w-[200px] h-[250px]" src="src/assets/featureProduct9.png" alt="featureProduct9.png">
+        
+    </div>
+</div>
+ 
+<!-- Feature Product Part End -->
+<!-- Top Reason Part Start -->
+ <div class="py-20">
+    <div class="max-w-mycontainer m-auto">
+        <div class="flex justify-between items-center gap-x-20">
+            <div class="w-[80%]">
+                <img src="src/assets/top reason.png" alt="top reason.png">
+            </div>
+            <div class="w-[w-20%]">
+                <h3 class="font-semibold text-4xl leading-14 text-col3 pr-18 mb-8 capitalize">Top Reasons to Choose Us for Your Pet Store Needs</h3>
+                <p class="font-normal text-xl leading-8 pr-20 mb-10">Unleash the Best Care for Your Beloved Pets - Choose Us for Unmatched Expertise and Exceptional Service.</p>
+            
+                <div class="flex items-center mb-8">
+                    <img src="src/assets/pow_icon.png" alt="pow_icon.png">
+                    <div class="ml-4">
+                        <h5 class="font-semibold text-xl text-col3 leading-7 mb-2">High Quality Products</h5>
+                        <p class="font-normal text-sm text-col2 w-[282px] leading-5">We are committed to providing the highest quality products for your pets.</p>
+                    </div>
+                </div>
+                <div class="flex items-center mb-8">
+                    <img src="src/assets/petFood.png" alt="petFood.png">
+                    <div class="ml-4">
+                        <h5 class="font-semibold text-xl text-col3 leading-7 mb-2">Expart Staff</h5>
+                        <p class="font-normal text-sm text-col2 w-[282px] leading-5">We are committed to providing the highest quality products for your pets.</p>
+                    </div>
+                </div>
+                <div class="flex items-center ">
+                    <img src="src/assets/accesories.png" alt="accesories.png">
+                   
+                    <div class="ml-4">
+                        <h5 class="font-semibold text-xl text-col3 leading-7 mb-2">Personalized Approach</h5>
+                        <p class="font-normal text-sm text-col2 w-[282px] leading-5">We are committed to providing the highest quality products for your pets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- Top Reason Part End -->
+<!-- Pet Happy Part Start -->
+ <div class="bg-[url(../src/assets/petHappy.png)] bg-no-repeat bg-cover bg-center py-26 text-center">
+    <h2 class="font-medium text-[56px] text-col3 leading-9 mb-8">Make Your Pet Happy</h2>
+    <h5 class="font-regular text-xl leading-7.5 text-col3 mb-12">We Offer Quality Pet Services</h5>  
+    <button class="py-4 px-8 bg-col3 rounded-xl hover:bg-col1  transition-all duration-300"><a
+        class="font-semibold text-sm text-white uppercase hover:text-black transition-all duration-300"
+        href="">SHOP NOW</a></button>
+
+ </div>
+<!-- Pet Happy Part End -->
+
+<!-- Service Part End -->
+ <div class="py-16">
+    <div class="max-w-mycontainer m-auto">
+        <div class="text-center mb-12">
+            <h2 class="font-bold text-4xl text-col3 mb-4">Services We Provide</h2>  
+            <p class="font-normal text-lg text-col2 leading-5 text-center px-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia ipsum quaerat et vel architecto. Harum.</p>
+        </div>
+        <div class="flex gap-x-5">
+            <div class="w-[300px] text-center border-1 border-[#e3e3e3] rounded-lg shadow-2xl p-5 hover:shadow-transparent">
+                <img class="m-auto mb-6" src="src/assets/phone-call.png" alt="phone-call.png">
+                <h3 class="font-semibold text-xl text-col3 mb-4">24/7 Customer Service</h3>
+                <p class="font-normal text-sm text-col2 leading-5">We're here to help you with any questions or concerns you have, 24/7.</p>
+            </div>
+            <div class="w-[300px] text-center border-1 border-[#e3e3e3] rounded-lg shadow-2xl p-5 hover:shadow-transparent">
+                <img class="m-auto mb-6" src="src/assets/Return.png" alt="Return.png">
+                <h3 class="font-semibold text-xl text-col3 mb-4">14-Day Money Back</h3>
+                <p class="font-normal text-sm text-col2 leading-5">If you're not satisfied with your purchase, simply return it within 14 days for a refund.</p>
+            </div>
+            <div class="w-[300px] text-center border-1 border-[#e3e3e3] rounded-lg shadow-2xl p-5 hover:shadow-transparent">
+                <img class="m-auto mb-6" src="src/assets/guarantee.png" alt="guarantee.png">
+                <h3 class="font-semibold text-xl text-col3 mb-4">Our Guarantee</h3>
+                <p class="font-normal text-sm text-col2 leading-5">We stand behind our products and services and guarantee your satisfaction.</p>
+            </div>
+            <div class="w-[300px] text-center border-1 border-[#e3e3e3] rounded-lg shadow-2xl p-5 hover:shadow-transparent">
+                <img class="m-auto mb-6" src="src/assets/truck.png" alt="truck.png">
+                <h3 class="font-semibold text-xl text-col3 mb-4">Shipping worldwide</h3>
+                <p class="font-normal text-sm text-col2 leading-5">We ship our products worldwide, making them accessible to customers everywhere.</p>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- Service Part End -->
+<!-- Instragram Part Start -->
+ <div class="py-12">
+    <div class="max-w-mycontainer m-auto">
+        <div class="text-center mb-12">
+            <h2 class="font-bold text-4xl text-col3 mb-3">Anvogue On Instagram</h2>  
+            <p class="font-normal text-lg text-col2 leading-5 text-center px-50"># Anvougetheme</p>
+        </div>  
+        <div class="flex">
+            <div class="flex flex-center items-center relative ">
+                <img class="" src="src/assets/instagram1.png" alt="instagram1.png">
+                <i class="fa-brands fa-instagram text-6xl text-white absolute top-1/2 left-1/2 -translate-1/2 opacity-0 hover:opacity-100 transition-all duration-200"></i>
+            </div>  
+            <div class="flex flex-center items-center relative ">
+                <img class="" src="src/assets/instagram2.png" alt="instagram2.png">
+                <i class="fa-brands fa-instagram text-6xl text-white absolute top-1/2 left-1/2 -translate-1/2 opacity-0 hover:opacity-100 transition-all duration-200"></i>
+            </div>  
+            <div class="flex flex-center items-center relative ">
+                <img class="" src="src/assets/instagram3.png" alt="instagram3.png">
+                <i class="fa-brands fa-instagram text-6xl text-white absolute top-1/2 left-1/2 -translate-1/2 opacity-0 hover:opacity-100 transition-all duration-200"></i>
+            </div>  
+            <div class="flex flex-center items-center relative ">
+                <img class="" src="src/assets/instagram4.png" alt="instagram4.png">
+                <i class="fa-brands fa-instagram text-6xl text-white absolute top-1/2 left-1/2 -translate-1/2 opacity-0 hover:opacity-100 transition-all duration-200"></i>
+            </div>  
+            <div class="flex flex-center items-center relative ">
+                <img class="" src="src/assets/instagram5.png" alt="instagram5.png">
+                <i class="fa-brands fa-instagram text-6xl text-white absolute top-1/2 left-1/2 -translate-1/2 opacity-0 hover:opacity-100 transition-all duration-200"></i>
+            </div>  
+            <div class="flex flex-center items-center relative ">
+                <img class="" src="src/assets/instagram6.png" alt="instagram6.png">
+                <i class="fa-brands fa-instagram text-6xl text-white absolute top-1/2 left-1/2 -translate-1/2 opacity-0 hover:opacity-100 transition-all duration-200"></i>
+            </div> 
+        </div>
+        <div class="flex justify-between items-center py-10">
+            <img src="src/assets/brand1.png" alt="brand1.png">
+            <img src="src/assets/brand2.png" alt="brand2.png">
+            <img src="src/assets/brand3.png" alt="brand3.png">
+            <img src="src/assets/brand4.png" alt="brand4.png">
+            <img src="src/assets/brand5.png" alt="brand5.png">
+            <img src="src/assets/brand6.png" alt="brand6.png">
+        </div>
+   </div>
+ </div>
+<!-- Instragram Part End -->
+<!-- Footer Part Start-->
+ <div class="pt-18 pb-2 bg-[#F7F7F7]">
+    <div class="max-w-mycontainer m-auto">
+        <div class="flex justify-between">
+            <div class="w-[30%]">
+                <img class="mb-8" src="src/assets/logo.png" alt="logo.png">
+            <div class="flex">
+                <h4 class="font-semibold text-base leading-7 text-col3 mr-2">Email :</h4>
+                <p class="font-normal text-base leading-7 text-col3">info.anvogue.com</p>
+            </div>
+            <div class="flex">
+                <h4 class="font-semibold text-base leading-7 text-col3 mr-2">Phone :</h4>
+                <p class="font-normal text-base leading-7 text-col3">1-333-345-6868</p>
+            </div>
+            <div class="flex">
+                <h4 class="font-semibold text-base leading-7 text-col3 mr-2">Address :</h4>
+                <p class="font-normal text-base leading-7 text-col3">549 Oak St.Crystal Lake, IL 60014</p>
+            </div>
+            </div>
+            
+            <div class="w-[13%]">
+                <h3 class="font-semibold text-base leading-7 text-col3 mr-2 mb-8">Information</h3>
+                <p class="font-normal text-base leading-7 text-col3">Contact Us</p>
+                <p class="font-normal text-base leading-7 text-col3">Career</p>
+                <p class="font-normal text-base leading-7 text-col3">My Account</p>
+                <p class="font-normal text-base leading-7 text-col3">Order & Return</p>
+                <p class="font-normal text-base leading-7 text-col3">FAQ</p>
+            </div>
+            <div class="w-[13%]">
+                <h3 class="font-semibold text-base leading-7 text-col3 mr-2 mb-8">Quick Shop</h3>
+                <p class="font-normal text-base leading-7 text-col3">Women</p>
+                <p class="font-normal text-base leading-7 text-col3">Men</p>
+                <p class="font-normal text-base leading-7 text-col3">Clothes</p>
+                <p class="font-normal text-base leading-7 text-col3">accesories</p>
+                <p class="font-normal text-base leading-7 text-col3">Blog</p>
+            </div>
+            <div class="w-[18%]">
+                <h3 class="font-semibold text-base leading-7 text-col3 mr-2 mb-8">Customer Services</h3>
+                <p class="font-normal text-base leading-7 text-col3">Orders FAQ's</p>
+                <p class="font-normal text-base leading-7 text-col3">Shipping</p>
+                <p class="font-normal text-base leading-7 text-col3">Privacy Policy</p>
+                <p class="font-normal text-base leading-7 text-col3">Return and Refund</p>
+            </div>
+            <div class="w-[25%]">
+                <h3 class="font-semibold text-base leading-7 text-col3 mr-2 mb-8">Newsletter</h3>
+                <p class="font-normal text-base leading-7 text-col3 mb-6">Sign up for our newsletter and get 10% off your first purchase.</p>
+                <div class="flex items-center ">
+                    <input class=" py-2 pl-4 pr-4 bg-white rounded-l-xl" type="text" placeholder="Email Address">
+                    <i class="fa-solid fa-arrow-right py-2.5 px-3 bg-black text-white text-lg rounded-r-xl"></i>
+                </div>
+                <div class="mt-4 ">
+                    <i class="fa-brands fa-facebook-f text-xl text-black mr-4"></i>
+                    <i class="fa-solid fa-x text-xl text-black mr-4"></i>
+                    <i class="fa-brands fa-pinterest-p text-xl text-black mr-4"></i>
+                    <i class="fa-brands fa-instagram text-xl text-black mr-4"></i>
+                    <i class="fa-brands fa-youtube text-xl text-black mr-4"></i>
+                </div>
+            
+            </div>
+        </div>
+        <hr class="mt-10 text-col4 ">
+        <div class="flex justify-between items-center mt-2">
+            <h5 class="font-normal text-sm text-col2">© 2025 Anvogue. All Rights Reserved. </h5>
+            <img src="src/assets/payment.png" alt="payment.png">
+        </div>
+
+    </div>
+ </div>
+<!-- Footer Part End -->
+<!-- Top Header Part End -->
+<!-- Top Header Part Start -->
+<!-- Top Header Part End -->
+
+<script src="js/jquery-3.7.1.slim.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/script.js"></script>
+    
+</body>
+</html> 

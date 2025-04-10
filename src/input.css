@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+body{
+    overflow-x: hidden;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+@theme {
+    /* container customization start*/
+        --spacing-mycontainer: 1290px; 
+    /* container customization End*/
+    /* color customization start */
+        --color-col1: #D2EF9A;
+        --color-col2: #696C70;
+        --color-col3: #1F1F1F;
+        --color-col4: #A0A0A0;
+        --color-col5: #DB4444;
+        
+        --color-col6: #;
+        --color-col7: #;
+
+    /* color customization End */
+    
+
+}
+
+/* Slick Slider dots customization part start */
+  
+@layer components {
+
+    .slick-dots {
+        @apply flex justify-center mt-8 space-x-2;
+      }
+      
+      .slick-dots li {
+        @apply w-3 h-3 ring-1 ring-black bg-white rounded-full relative;
+      }
+      
+      .slick-dots li button {
+        @apply w-2 h-2 rounded-full text-transparent bg-white absolute top-1/2 left-1/2 -translate-1/2 transition-all duration-300;
+      }
+      
+      .slick-dots li.slick-active button {
+        @apply bg-col3 scale-150;
+      }
+      
+    
+
+}
+
+
+/* Slick Slider dots customization part End */
+
